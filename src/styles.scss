@@ -1,0 +1,22 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+$bike-tour-primary: mat.define-palette(mat.$indigo-palette);
+$bike-tour-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+$bike-tour-warn: mat.define-palette(mat.$red-palette);
+
+$bike-tour-theme: mat.define-light-theme((
+  color: (
+    primary: $bike-tour-primary,
+    accent: $bike-tour-accent,
+    warn: $bike-tour-warn,
+  )
+));
+
+@include mat.all-component-themes($bike-tour-theme);
+
+/* global styles */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
