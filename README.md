@@ -1,6 +1,9 @@
 # NVO Bike Tour Lukavac
 
-Welcome to the official repository for the Bike Tour Lukavac website! We are a cycling club based in Lukavac, Bosnia and Herzegovina.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a7754a36-47b8-4e93-847f-959596d79f28/deploy-status)](https://app.netlify.com/sites/bike-tour/deploys)
+
+Welcome to the official repository for the Bike Tour Lukavac website! We are a cycling club based in Lukavac, Bosnia and
+Herzegovina.
 
 ## Technologies Used
 
